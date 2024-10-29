@@ -10,7 +10,7 @@ namespace LinkedList
             ts.AddLast(2);
             ts.AddLast(3);
             ts.AddLast(4);
-
+             ts.RemoveLast();
             if (ts.Count > 0)
             {
                 Console.WriteLine("lINKED lIST IS NOT EMPTY");
