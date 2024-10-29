@@ -12,7 +12,7 @@ namespace SortedListDemo
             SortedList<int, string> a1 = new SortedList<int, string>();
             a1.Add(1, "Abc");
             a1.Add(2, "Abc");
-            a1.Add(3, "XYZ");
+            
 
             foreach (KeyValuePair<int, string> a in a1)
             {
